@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#1F3B2C"><meta name="robots" content="noindex,nofollow"><meta name="description" content="Projeção de vendas do Grupo Diagonal 2026–2031 – apresentação à Diretoria">
+<title>Projeção de Vendas do Grupo 2026–2031 | Diretoria</title>
+<style>
+:root{--navy:#1F3B2C;--blue2:#3F8F66;--ink:#1a1a19;--ink2:#52514e;--ink3:#8a8984;--line:#e4e3df;--bg:#f3f6f4;--card:#fff;
+--c1:#3F8F66;--c2:#D4572A;--c3:#3A6EA5;--gold:#B8892E;--goldbg:#fbf3df;--golddk:#8a6416;--n1:#1F3B2C;--n2:#9CC5AB;--good:#1b7f4b;--warn:#b26a00;--bad:#c0392b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);font-size:15px;line-height:1.5}
+nav{position:sticky;top:0;z-index:10;background:var(--navy);display:flex;gap:2px;padding:0 24px;overflow-x:auto;box-shadow:0 1px 4px #0003}
+nav b{color:#fff;padding:13px 18px 13px 0;font-size:13px;white-space:nowrap;letter-spacing:.3px}
+nav a{color:#cfe3d6;text-decoration:none;font-size:13px;padding:13px 12px;white-space:nowrap;border-bottom:3px solid transparent}
+nav a:hover,nav a.on{color:#fff;border-bottom-color:#9be0b8}
+header.hero{background:linear-gradient(135deg,#14281d 0%,#1F3B2C 45%,#2E6347 100%);color:#fff;padding:56px 24px 72px}
+.wrap{max-width:1180px;margin:0 auto}
+.hero h1{font-size:38px;margin:0 0 6px;line-height:1.15}
+.hero p.sub{margin:0 0 36px;color:#d8eadf;font-size:15px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kpi{background:#ffffff1c;border:1px solid #ffffff33;border-radius:10px;padding:18px 20px}
+.kpi .v{font-size:32px;font-weight:700;line-height:1.1}.kpi .l{font-size:12.5px;color:#d8eadf;margin-top:6px}
+section{padding:44px 24px 8px;scroll-margin-top:44px}
+section h2{font-size:24px;color:var(--navy);margin:0 0 4px}
+section .lead{color:var(--ink2);margin:0 0 22px;max-width:900px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin-bottom:18px}
+.card h3{margin:0 0 2px;font-size:15px;color:var(--ink)}.card .cap{font-size:12.5px;color:var(--ink3);margin:0 0 12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.chart{position:relative;width:100%}svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:Arial,Helvetica,sans-serif;fill:var(--ink2);font-size:11.5px}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--ink2);margin:0 0 8px}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+#tip{position:fixed;pointer-events:none;background:#111;color:#fff;font-size:12px;padding:8px 10px;border-radius:6px;display:none;z-index:50;line-height:1.5;box-shadow:0 3px 10px #0004;max-width:260px}
+#tip b{font-weight:700}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th{background:var(--navy);color:#fff;font-weight:700;padding:8px 10px;text-align:right;font-size:12px;position:sticky;top:0}
+th:first-child,th.l,td.l{text-align:left}td.l{white-space:nowrap}
+td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
+tr.tot td{font-weight:700;background:#e8f0ea;border-top:2px solid var(--navy)}
+th.sort{cursor:pointer}th.sort:hover{background:#2E5A43}
+.scroll{overflow:auto;max-height:560px;border:1px solid var(--line);border-radius:8px}
+.tag{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:7px}
+.note{font-size:12.5px;color:var(--ink3);margin-top:8px}
+.ctrl{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.ctrl input,.ctrl select{font:inherit;font-size:13px;padding:7px 10px;border:1px solid #c9c8c3;border-radius:6px;background:#fff}
+.ins{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:18px}
+.ins div{background:#fff;border-left:4px solid var(--blue2);border-radius:6px;padding:12px 16px;border-top:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.ins b{display:block;color:var(--navy);margin-bottom:2px}
+.alert{border-left-color:var(--warn)!important}.alert b{color:var(--warn)!important}
+ul.p{margin:6px 0 0;padding-left:20px}ul.p li{margin-bottom:6px}
+footer{padding:30px 24px 50px;color:var(--ink3);font-size:12.5px;text-align:center}
+.pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;background:#e8f0ea;color:var(--navy);font-weight:700}
+
+.kpi.hl{background:#fff;color:#1F3B2C;border:2px solid var(--gold)}.kpi.hl .l{color:#52514e}.kpi.hl .v{color:#1F3B2C}
+.badge{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.6px;background:var(--gold);color:#fff;padding:2px 8px;border-radius:10px;margin-bottom:8px}
+th.g{background:var(--golddk)}td.g{background:var(--goldbg);font-weight:700}tr.tot td.g{background:#f3e3b5}
+.card.hl{border:2px solid var(--gold)}.card.hl th{background:var(--golddk)}.card.hl tr.tot td{background:#f3e3b5}.card.hl>h3 .badge{margin:0 8px 0 0;vertical-align:1px}
+.sec-g{background:linear-gradient(180deg,#fbf3df 0,#f3f6f4 100%);margin-top:30px;padding-bottom:20px;border-top:3px solid var(--gold)}
+.sec-g h2{color:#1F3B2C}.ins.g div{border-left-color:var(--gold)}
+.seg{display:inline-flex;border:1px solid #b9c7be;border-radius:6px;overflow:hidden}.seg button{font:inherit;font-size:13px;padding:7px 14px;border:0;background:#fff;cursor:pointer;color:#1F3B2C}.seg button.on{background:#1F3B2C;color:#fff}.seg button.on.g{background:var(--golddk)}
+@media(max-width:860px){.kpis{grid-template-columns:1fr 1fr}.grid2,.grid3,.ins{grid-template-columns:1fr!important}.hero h1{font-size:28px}}
+
+.grid2>*,.grid3>*,.ins>*{min-width:0}.scroll table{min-width:600px}
+.scroll td:first-child{position:sticky;left:0;background:#fff;z-index:1;box-shadow:1px 0 0 var(--line)}
+.scroll th:first-child{position:sticky;left:0;z-index:3}
+.scroll tr.tot td:first-child{background:#e8f0ea}
+.scroll{-webkit-overflow-scrolling:touch}
+img,svg{max-width:100%}
+.hero h1{overflow-wrap:anywhere}
+@media(max-width:860px){
+ section{padding:32px 16px 4px}header.hero{padding:36px 16px 44px}.hero h1{font-size:30px}
+ .kpi .v{font-size:26px}.card{padding:16px 14px}.lead{font-size:14.5px}
+ nav{padding:0 10px}nav b{display:none}
+ table{font-size:12.5px}th,td{padding:7px 8px}
+ .ctrl input,.ctrl select{flex:1 1 100%;min-width:0}
+ .scroll{max-height:70vh}}
+@media(max-width:560px){
+ body{font-size:14px}
+ .kpis{grid-template-columns:1fr}.hero h1{font-size:25px}.hero p.sub{font-size:13.5px}
+ .kpi{padding:14px 16px}.kpi .v{font-size:24px}
+ section h2{font-size:20px}.legend{gap:10px;font-size:12px}
+ .sec-g h2 .badge{display:block;width:max-content;margin-bottom:4px;vertical-align:baseline!important}
+ .seg button{padding:7px 10px}}
+@media(max-width:860px) and (min-width:561px){.kpis{grid-template-columns:1fr 1fr}}
+@media print{nav{display:none}body{background:#fff}section{break-inside:avoid;padding-top:20px}.scroll{max-height:none}header.hero{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style></head><body>
+<nav><b>PROJEÇÃO GRUPO 2026–2031</b><a href="#visao">Visão geral</a><a href="#bruto" style="color:#f3d58a;font-weight:700">VGV bruto</a><a href="#ano">Evolução</a><a href="#empresa">Empresas</a><a href="#proj">Empreendimentos</a><a href="#origem">Origem do volume</a><a href="#distrato">Distrato</a><a href="#estoque">Estoque</a><a href="#atencao">Premissas e atenção</a></nav>
+<header class="hero"><div class="wrap">
+<h1>Projeção de Vendas do Grupo<br>2026 – 2031</h1>
+<p class="sub">Apresentação à Diretoria · Base de 25/10/2026 · Realizado jan–set/26 · Projeção out/26 em diante · Operações do Grupo Diagonal</p>
+<div class="kpis" id="kpis"></div></div></header>
+
+<section id="visao"><div class="wrap">
+<h2>Visão geral</h2>
+<p class="lead">A base projeta <b>R$&nbsp;4,42 bilhões de VGV bruto</b> no período (12.071 unidades) e R$&nbsp;4,06 bilhões em vendas líquidas (10.975 unidades), com distrato de 8% a partir de out/26. O pico está em 2026–2028, com cerca de R$&nbsp;1,0 bilhão por ano.</p>
+<div class="ins" id="ins1"></div>
+<div class="card"><h3>Resumo anual – líquido e bruto</h3><p class="cap">VGV em R$ milhões. 2026 = realizado jan–set + projeção out–dez.</p><div class="scroll" style="max-height:none"><table id="tAnual"></table></div></div>
+</div></section>
+
+
+<section id="bruto" class="sec-g"><div class="wrap">
+<h2><span class="badge" style="vertical-align:6px">DESTAQUE</span> VGV bruto</h2>
+<p class="lead">Visão bruta = venda líquida ÷ (1 − distrato), com distrato de 8% a partir de out/26. O VGV bruto soma <b id="gTot"></b> no período, <b id="gDif"></b> acima do líquido.</p>
+<div class="ins g" id="insG"></div>
+<div class="grid2">
+<div class="card hl"><h3><span class="badge">BRUTO</span>VGV bruto por ano e empresa</h3><p class="cap">R$ milhões</p><div class="legend" id="lgG"></div><div class="chart" id="chG"></div></div>
+<div class="card hl"><h3><span class="badge">BRUTO</span>Bruto × líquido por ano</h3><p class="cap">R$ milhões. A diferença é o distrato.</p><div class="legend" id="lgGN"></div><div class="chart" id="chGN"></div></div>
+</div>
+<div class="card hl"><h3><span class="badge">BRUTO</span>VGV bruto por empresa (R$ milhões)</h3><div class="scroll" style="max-height:none"><table id="tGE"></table></div></div>
+<div class="card hl"><h3><span class="badge">BRUTO</span>Quantidade bruta por empresa (unidades)</h3><div class="scroll" style="max-height:none"><table id="tGU"></table></div></div>
+<div class="card hl"><h3><span class="badge">BRUTO</span>Top 10 empreendimentos – VGV bruto 2026–2031</h3><p class="cap">R$ milhões</p><div class="chart" id="chG10"></div></div>
+</div></section>
+
+<section id="ano"><div class="wrap">
+<h2>Evolução das vendas</h2>
+<p class="lead">VGV líquido por empresa e ano, e curva mensal consolidada. A linha tracejada marca o corte entre realizado e projeção.</p>
+<div class="grid2">
+<div class="card"><h3>VGV líquido por ano e empresa</h3><p class="cap">R$ milhões</p><div class="legend" id="lg1"></div><div class="chart" id="ch1"></div></div>
+<div class="card"><h3>Venda líquida mensal do Grupo</h3><p class="cap">R$ milhões por mês, jan/26 a mar/31</p><div class="chart" id="ch2"></div></div>
+</div>
+<div class="card"><h3>2026: realizado × projeção do 4º trimestre</h3><p class="cap">Média mensal realizada (jan–set) R$&nbsp;86,7 mi · média mensal projetada (out–dez) R$&nbsp;84,1 mi: a projeção mantém o ritmo do ano.</p><div class="scroll" style="max-height:none"><table id="t26"></table></div></div>
+</div></section>
+
+<section id="empresa"><div class="wrap">
+<h2>Resultado por empresa</h2>
+<p class="lead">VICTA concentra 63% do VGV. A Diagonal depende do estoque atual e perde relevância a partir de 2028; a Diagonal Inc cresce com novos lançamentos.</p>
+<div class="grid3" id="cards3"></div>
+<div class="card"><h3>VGV líquido por empresa (R$ milhões)</h3><div class="scroll" style="max-height:none"><table id="tEmp"></table></div></div>
+<div class="card"><h3>Quantidade líquida por empresa (unidades)</h3><div class="scroll" style="max-height:none"><table id="tEmpU"></table></div></div>
+</div></section>
+
+<section id="proj"><div class="wrap">
+<h2>Empreendimentos</h2>
+<p class="lead">50 empreendimentos na projeção; use o seletor da tabela para alternar entre as visões líquida e bruta. Os dez maiores somam <span id="top10share"></span> do VGV do período.</p>
+<div class="card"><h3>Top 10 – VGV líquido total 2026–2031</h3><p class="cap">R$ milhões</p><div class="chart" id="ch3"></div></div>
+<div class="card"><h3 id="projT">Base completa (visão líquida)</h3><p class="cap">Clique nos títulos para ordenar. VGV em R$ milhões; unidades em #.</p>
+<div class="ctrl"><input id="q" placeholder="Buscar empreendimento..."><select id="fe"><option value="">Todas as empresas</option><option>VICTA</option><option>DIAGONAL INC</option><option>DIAGONAL</option></select>
+<select id="fm"><option value="vgv">Líquido: VGV (R$ mi)</option><option value="un">Líquido: Unidades (#)</option><option value="vgvb">BRUTO: VGV (R$ mi)</option><option value="unb">BRUTO: Unidades (#)</option></select></div>
+<div class="scroll"><table id="tProj"></table></div></div>
+</div></section>
+
+<section id="origem"><div class="wrap">
+<h2>De onde vem o volume</h2>
+<p class="lead">Empreendimentos que já vendem em 2026 sustentam 2027; a partir de 2028 o resultado depende do cumprimento do cronograma de lançamentos.</p>
+<div class="grid2">
+<div class="card"><h3>VGV líquido: empreendimentos atuais × novos lançamentos</h3><p class="cap">R$ milhões. "Atuais" = com venda realizada ou projetada em 2026.</p><div class="legend" id="lg2"></div><div class="chart" id="ch4"></div></div>
+<div class="card"><h3>Leitura</h3><ul class="p" id="orig"></ul></div>
+</div></div></section>
+
+<section id="distrato"><div class="wrap">
+<h2>Distrato</h2>
+<p class="lead">O distrato realizado em 2026 (11,5% do VGV) está acima dos 8% projetados. Como a venda líquida vem do plano de vendas, a premissa altera apenas a visão bruta.</p>
+<div class="grid2" style="grid-template-columns:1.25fr .75fr"><div class="card"><h3>% de distrato = (bruta − líquida) ÷ bruta</h3><p class="cap">Sobre o VGV</p><div class="scroll" style="max-height:none"><table id="tDis"></table></div></div>
+<div class="card"><h3>Distrato em R$ por ano</h3><p class="cap">R$ milhões: bruto − líquido</p><div class="scroll" style="max-height:none"><table id="tDif"></table></div></div></div></div>
+</div></section>
+
+<section id="estoque"><div class="wrap">
+<h2>Estoque</h2>
+<p class="lead"><span id="estRes"></span> A projeção vende todo o estoque atual dos 22 empreendimentos até o fim da curva.</p>
+<div class="card"><h3>% do empreendimento em estoque</h3><p class="cap">Unidades em estoque ÷ total de unidades</p><div class="chart" id="ch6"></div></div>
+<div class="card"><h3>Detalhe do estoque</h3><div class="scroll"><table id="tEst"></table></div></div>
+</div></section>
+
+<section id="atencao"><div class="wrap">
+<h2>Premissas e pontos de atenção</h2>
+<div class="ins" style="grid-template-columns:1fr 1fr">
+<div><b>Premissas</b><ul class="p"><li>Distrato projetado de 8% por empresa a partir de out/26 (editável na aba RESUMO).</li><li>Último mês realizado: set/26. Venda líquida de out/26 em diante vem do plano de vendas (MODULADO), da curva validada de 20 lançamentos e do estoque.</li><li>Todo o estoque atual dos 22 empreendimentos é vendido até o fim da curva.</li><li>Não há lançamentos da Diagonal na curva; por isso ela zera a partir de 2029.</li></ul></div>
+<div class="alert"><b>Pontos de atenção</b><ul class="p"><li>Concentração: Q Tower = 8,7% do VGV do período e 14% de 2027.</li><li>51% do VGV depende de 19 empreendimentos sem venda em 2026.</li><li>Estoque alto em Vitória Jasmim (87%), Bosque Solar dos Diogos (97%) e Viver Essencial (64%): confirmar a absorção projetada.</li><li>Aba MODULADO com 9 células em erro (#VALUE!) e 169 fórmulas ligadas a arquivos externos no SharePoint, ainda não atualizados.</li><li>Parte dos valores de jan–set/26 e da projeção da Diagonal é digitada, não calculada.</li></ul></div>
+</div>
+<div class="card"><h3>Conferências</h3><p class="note" style="margin:0">As linhas "Conferência vs. total geral" do RESUMO fecham em zero nas visões líquida e bruta.</p></div>
+</div></section>
+<footer>Fonte: PROJEÇÃO GRUPO 25.10.2026.xlsx · Operações do Grupo Diagonal</footer>
+<div id="tip"></div>
+<script>
+const D={"net": [["VICTA", "VIT\u00d3RIA JASMIM", 83, 78, 161, 312, 147, 0, 0, 0, 620, 17831197.03, 16197380.95238094, 34028577.98238094, 64789523.809523754, 30525833.333333313, 0, 0, 0, 129343935.125238], ["VICTA", "HYPE CONDOM\u00cdNIO CLUBE", 215, 75, 290, 212, 32, 0, 0, 0, 534, 60870949.4, 22141719.745222952, 83012669.14522295, 62587261.14649686, 9447133.757961793, 0, 0, 0, 155047064.04968157], ["VICTA", "VIVER ESSENCIAL CONDOM\u00cdNIO CLUBE", 190, 52, 242, 192, 94, 0, 0, 0, 528, 47689524.239999995, 13335885.167464131, 61025409.407464124, 49240191.38755988, 24107177.033492856, 0, 0, 0, 134372777.82851687], ["VICTA", "VIT\u00d3RIA EUSEBIO", 227, 34, 261, 36, 0, 0, 0, 0, 297, 48228862.07, 7006428.571428586, 55235290.64142859, 7418571.428571444, 0, 0, 0, 0, 62653862.07000004], ["VICTA", "VIT\u00d3RIA \u00cdRIS", 181, 48, 229, 127, 0, 0, 0, 0, 356, 41510419.480000004, 10836363.636363648, 52346783.11636365, 28671212.12121215, 0, 0, 0, 0, 81017995.2375758], ["VICTA", "Manoel S\u00e1tiro (SL) - Fase 1", 0, 0, 0, 0, 219, 228, 57, 0, 504, 0, 0, 0, 0, 58035000, 60420000, 15105000, 0, 133560000], ["VICTA", "Teresina (Higino Cunha)", 0, 0, 0, 0, 185, 216, 61, 0, 462, 0, 0, 0, 0, 53650000, 62640000, 17690000, 0, 133980000], ["VICTA", "VIT\u00d3RIA MARACANA\u00da", 254, 39, 293, 13, 0, 0, 0, 0, 306, 54775844.77, 8892000, 63667844.77, 2964000, 0, 0, 0, 0, 66631844.77], ["DIAGONAL INC", "Praia do Futuro II (Zez\u00e9 Diogo)", 0, 0, 0, 68, 160, 156, 28, 0, 412, 0, 0, 0, 22780000, 53600000, 52260000, 9380000, 0, 138020000], ["VICTA", "Manuel Dias Branco (Vilebaldo Aguiar)", 0, 0, 0, 54, 176, 168, 4, 0, 402, 0, 0, 0, 16200000, 52800000, 50400000, 1200000, 0, 120600000], ["VICTA", "Parangaba (Mundica Paula)", 0, 0, 0, 20, 192, 168, 16, 0, 396, 0, 0, 0, 5800000, 55680000, 48720000, 4640000, 0, 114840000], ["VICTA", "Curi\u00f3 (Francisco Leandro)", 0, 0, 0, 0, 190, 180, 26, 0, 396, 0, 0, 0, 0, 49400000, 46800000, 6760000, 0, 102960000], ["VICTA", "Manuel Dias Branco (Aldy Mentor)", 0, 0, 0, 0, 17, 188, 180, 5, 390, 0, 0, 0, 0, 5100000, 56400000, 54000000, 1500000, 117000000], ["VICTA", "Barra do Cear\u00e1 (Jer\u00f4nimo Albuquerque) - Fase 1", 0, 0, 0, 0, 151, 204, 29, 0, 384, 0, 0, 0, 0, 40770000, 55080000, 7830000, 0, 103680000], ["VICTA", "Belvedere Condom\u00ednio Clube", 13, 0, 13, 0, 0, 0, 0, 0, 13, 4541267.970000001, 0, 4541267.970000001, 0, 0, 0, 0, 0, 4541267.970000001], ["VICTA", "J\u00d3QUEI CONDOM\u00cdNIO CLUBE", 114, 26, 140, 0, 0, 0, 0, 0, 140, 43651432.41, 10509999.999999994, 54161432.40999999, 0, 0, 0, 0, 0, 54161432.40999999], ["VICTA", "Aquiraz (Prainha Gentil) - Fase 1", 0, 0, 0, 170, 144, 40, 0, 0, 354, 0, 0, 0, 56950000, 48240000, 13400000, 0, 0, 118590000], ["VICTA", "Aquiraz (Prainha Gentil) - Fase 2", 0, 0, 0, 0, 110, 144, 100, 0, 354, 0, 0, 0, 0, 36850000, 48240000, 33500000, 0, 118590000], ["VICTA", "CONDOM\u00cdNIO VIVER BOSQUE SOLAR DOS DIOGOS", 9, 45, 54, 174, 120, 0, 0, 0, 348, 2391380.12, 11907079.64601768, 14298459.76601768, 46040707.9646017, 31752212.38938048, 0, 0, 0, 92091380.11999987], ["VICTA", "Mirante Condominio Clube", 1, 0, 1, 0, 0, 0, 0, 0, 1, 370000, 0, 370000, 0, 0, 0, 0, 0, 370000], ["VICTA", "ATL\u00c2NTICO CONDOMINIO CLUBE", 96, 35, 131, 68, 0, 0, 0, 0, 199, 37826828.95, 14023786.407766975, 51850615.35776698, 27246213.59223298, 0, 0, 0, 0, 79096828.94999996], ["VICTA", "Parangaba (Silas Munguba)", 0, 0, 0, 0, 19, 172, 121, 0, 312, 0, 0, 0, 0, 5510000, 49880000, 35090000, 0, 90480000], ["VICTA", "Caucaia (Tabuba 6)", 0, 0, 0, 0, 36, 180, 65, 0, 281, 0, 0, 0, 0, 11520000, 57600000, 20800000, 0, 89920000], ["VICTA", "VIT\u00d3RIA AC\u00c1CIA", 33, 4, 37, 0, 0, 0, 0, 0, 37, 6923377.99, 840000, 7763377.99, 0, 0, 0, 0, 0, 7763377.99], ["VICTA", "VIT\u00d3RIA SENNA", 1, 3, 4, 0, 0, 0, 0, 0, 4, 321590.50000000023, 654000, 975590.5000000002, 0, 0, 0, 0, 0, 975590.5000000002], ["VICTA", "Jardim Cearense (Rubens Monte)", 0, 0, 0, 110, 160, 0, 0, 0, 270, 0, 0, 0, 29700000, 43200000, 0, 0, 0, 72900000], ["VICTA", "VISTA PARQUE CONDOM\u00cdNIO CLUBE", 113, 3, 116, 0, 0, 0, 0, 0, 116, 37982238.839999996, 1263999.999999999, 39246238.839999996, 0, 0, 0, 0, 0, 39246238.839999996], ["DIAGONAL INC", "Jos\u00e9 Bonif\u00e1cio (Bar\u00e3o do Rio Branco)", 0, 0, 0, 0, 17, 132, 96, 23, 268, 0, 0, 0, 0, 9265034, 71940264, 52320192, 12535046, 146060536], ["VICTA", "Cumbuco (CI1) - Fase 1", 0, 0, 0, 100, 120, 44, 0, 0, 264, 0, 0, 0, 35000000, 42000000, 15400000, 0, 0, 92400000], ["VICTA", "Vista Mar Condom\u00ednio Clube", 14, 1, 15, 0, 0, 0, 0, 0, 15, 5209360.12, 0, 5209360.12, 0, 0, 0, 0, 0, 5209360.12], ["VICTA", "VISTA COSTEIRA CUMBUCO", 62, 9, 71, 6, 0, 0, 0, 0, 77, 23183318.52, 3420000, 26603318.52, 2280000, 0, 0, 0, 0, 28883318.52], ["VICTA", "Vit\u00f3ria Mondubim", 1, 0, 1, 0, 0, 0, 0, 0, 1, 225367.99, 0, 225367.99, 0, 0, 0, 0, 0, 225367.99], ["VICTA", "Cumbuco (CI1) - Fase 2", 0, 0, 0, 0, 95, 120, 25, 0, 240, 0, 0, 0, 0, 33250000, 42000000, 8750000, 0, 84000000], ["DIAGONAL INC", "Praia de Iracema (Guarino Alves)", 0, 0, 0, 70, 84, 78, 0, 0, 232, 0, 0, 0, 43905750, 52686900, 48923550, 0, 0, 145516200], ["DIAGONAL INC", "INC GREEN CAMBEBA", 71, 30, 101, 123, 0, 0, 0, 0, 224, 37030471.82, 14642384.10596028, 51672855.92596028, 60033774.83443715, 0, 0, 0, 0, 111706630.76039743], ["VICTA", "VISTA COQUEIRAL", 85, 27, 112, 71, 0, 0, 0, 0, 183, 35728019.94, 11550489.795918368, 47278509.735918365, 30373510.204081632, 0, 0, 0, 0, 77652019.94], ["VICTA", "Caucaia (Costeira 02)", 0, 13, 13, 116, 75, 0, 0, 0, 204, 0, 4160000, 4160000, 37120000, 24000000, 0, 0, 0, 65280000], ["DIAGONAL INC", "Aquiraz (\u00c1gua Viva)", 0, 0, 0, 0, 120, 50, 0, 0, 170, 0, 0, 0, 0, 62358000, 25982500, 0, 0, 88340500], ["DIAGONAL INC", "INC PULSE PARQUEL\u00c2NDIA", 51, 24, 75, 65, 0, 0, 0, 0, 140, 24896233.52, 12593258.42696628, 37489491.946966276, 34106741.573033676, 0, 0, 0, 0, 71596233.51999995], ["DIAGONAL INC", "Aquiraz (Medusa)", 0, 0, 0, 60, 56, 0, 0, 0, 116, 0, 0, 0, 36000000, 33600000, 0, 0, 0, 69600000], ["DIAGONAL", "ICON CONDOMINIUM", 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 4590194.32, 4590194.32, 0, 0, 0, 0, 0, 4590194.32], ["DIAGONAL", "DIAGONAL BY PININFARINA", 2, 0, 2, 2, 2, 0, 0, 0, 6, 17452414.1, 0, 17452414.1, 22098996.735, 22098996.735, 0, 0, 0, 61650407.57], ["DIAGONAL", "Q TOWER CONDOMINIUM", 23, 9, 32, 24, 10, 0, 0, 0, 66, 110502407.08000001, 51065052.02790697, 161567459.107907, 136173472.07441857, 56738946.69767441, 0, 0, 0, 354479877.88], ["DIAGONAL", "OCEAN GARDEN CUMBUCO", 12, 6, 18, 24, 16, 0, 0, 0, 58, 19575476.26, 10495914.27391302, 30071390.533913024, 41983657.09565208, 27989104.73043472, 0, 0, 0, 100044152.35999982], ["DIAGONAL", "OCEAN GARDEN", 2, 1, 3, 6, 0, 0, 0, 0, 9, 5700000, 3254292.04285714, 8954292.04285714, 19525752.257142838, 0, 0, 0, 0, 28480044.29999998], ["DIAGONAL", "FLOW CUMBUCO CONDOMINIUM", 138, 36, 174, 98, 0, 0, 0, 0, 272, 77429032.74, 18785959.194626857, 96214991.93462685, 51139555.585373126, 0, 0, 0, 0, 147354547.51999998], ["DIAGONAL", "EDGE CONDOMINIUM", 2, 0, 2, 0, 0, 0, 0, 0, 2, 10700000, 0, 10700000, 0, 0, 0, 0, 0, 10700000], ["DIAGONAL", "AVULSO DIAGONAL", 4, 0, 4, 0, 0, 0, 0, 0, 4, 5710000, 0, 5710000, 0, 0, 0, 0, 0, 5710000], ["DIAGONAL", "AVULSO ROSSI", 5, 0, 5, 0, 0, 0, 0, 0, 5, 570000, 0, 570000, 0, 0, 0, 0, 0, 570000], ["DIAGONAL", "CONNECT BEIRA MAR", 2, 0, 2, 0, 0, 0, 0, 0, 2, 1580060.06, 0, 1580060.06, 0, 0, 0, 0, 0, 1580060.06]], "gross": [["VICTA", "VIT\u00d3RIA JASMIM", 83, 84, 167, 336, 159, 0, 0, 0, 662, 17831197.03, 17443333.333333325, 35274530.36333333, 69773333.3333333, 33017738.095238075, 0, 0, 0, 138065601.7919047], ["VICTA", "HYPE CONDOM\u00cdNIO CLUBE", 221, 82, 303, 235, 34, 0, 0, 0, 572, 62467349.4, 24208280.254777096, 86675629.6547771, 69377388.53503193, 10037579.617834404, 0, 0, 0, 166090597.8076434], ["VICTA", "VIVER ESSENCIAL CONDOM\u00cdNIO CLUBE", 208, 57, 265, 204, 100, 0, 0, 0, 569, 52135432.4, 14618181.818181837, 66753614.21818183, 52317703.34928238, 25645933.014354102, 0, 0, 0, 144717250.5818183], ["VICTA", "VIT\u00d3RIA EUSEBIO", 288, 37, 325, 40, 0, 0, 0, 0, 365, 61082387.04000001, 7624642.857142873, 68707029.89714289, 8242857.14285716, 0, 0, 0, 0, 76949887.04000005], ["VICTA", "VIT\u00d3RIA \u00cdRIS", 260, 51, 311, 136, 0, 0, 0, 0, 447, 59354487.900000006, 11513636.363636376, 70868124.26363638, 30703030.303030342, 0, 0, 0, 0, 101571154.56666672], ["VICTA", "Manoel S\u00e1tiro (SL) - Fase 1", 0, 0, 0, 0, 241, 252, 63, 0, 556, 0, 0, 0, 0, 63865000, 66780000, 16695000, 0, 147340000], ["VICTA", "Teresina (Higino Cunha)", 0, 0, 0, 0, 205, 240, 68, 0, 513, 0, 0, 0, 0, 59450000, 69600000, 19720000, 0, 148770000], ["VICTA", "VIT\u00d3RIA MARACANA\u00da", 318, 42, 360, 14, 0, 0, 0, 0, 374, 68466095.91000001, 9576000, 78042095.91000001, 3192000, 0, 0, 0, 0, 81234095.91000001], ["DIAGONAL INC", "Praia do Futuro II (Zez\u00e9 Diogo)", 0, 0, 0, 72, 172, 168, 30, 0, 442, 0, 0, 0, 24120000, 57620000, 56280000, 10050000, 0, 148070000], ["VICTA", "Manuel Dias Branco (Vilebaldo Aguiar)", 0, 0, 0, 60, 190, 180, 4, 0, 434, 0, 0, 0, 18000000, 57000000, 54000000, 1200000, 0, 130200000], ["VICTA", "Parangaba (Mundica Paula)", 0, 0, 0, 22, 208, 180, 17, 0, 427, 0, 0, 0, 6380000, 60320000, 52200000, 4930000, 0, 123830000], ["VICTA", "Curi\u00f3 (Francisco Leandro)", 0, 0, 0, 0, 202, 192, 28, 0, 422, 0, 0, 0, 0, 52520000, 49920000, 7280000, 0, 109720000], ["VICTA", "Manuel Dias Branco (Aldy Mentor)", 0, 0, 0, 0, 18, 200, 192, 5, 415, 0, 0, 0, 0, 5400000, 60000000, 57600000, 1500000, 124500000], ["VICTA", "Barra do Cear\u00e1 (Jer\u00f4nimo Albuquerque) - Fase 1", 0, 0, 0, 0, 164, 216, 31, 0, 411, 0, 0, 0, 0, 44280000, 58320000, 8370000, 0, 110970000], ["VICTA", "Belvedere Condom\u00ednio Clube", 16, 0, 16, 0, 0, 0, 0, 0, 16, 5530867.970000001, 0, 5530867.970000001, 0, 0, 0, 0, 0, 5530867.970000001], ["VICTA", "J\u00d3QUEI CONDOM\u00cdNIO CLUBE", 119, 28, 147, 0, 0, 0, 0, 0, 147, 45516885.300000004, 11318461.538461532, 56835346.83846153, 0, 0, 0, 0, 0, 56835346.83846153], ["VICTA", "Aquiraz (Prainha Gentil) - Fase 1", 0, 0, 0, 185, 156, 43, 0, 0, 384, 0, 0, 0, 61975000, 52260000, 14405000, 0, 0, 128640000], ["VICTA", "Aquiraz (Prainha Gentil) - Fase 2", 0, 0, 0, 0, 120, 156, 108, 0, 384, 0, 0, 0, 0, 40200000, 52260000, 36180000, 0, 128640000], ["VICTA", "CONDOM\u00cdNIO VIVER BOSQUE SOLAR DOS DIOGOS", 9, 48, 57, 186, 130, 0, 0, 0, 373, 2391380.12, 12700884.955752192, 15092265.075752191, 49215929.20353973, 34398230.08849553, 0, 0, 0, 98706424.36778745], ["VICTA", "Mirante Condominio Clube", 1, 0, 1, 0, 0, 0, 0, 0, 1, 370000, 0, 370000, 0, 0, 0, 0, 0, 370000], ["VICTA", "ATL\u00c2NTICO CONDOMINIO CLUBE", 102, 38, 140, 74, 0, 0, 0, 0, 214, 40193359.660000004, 15225825.242718432, 55419184.90271844, 29650291.26213589, 0, 0, 0, 0, 85069476.16485433], ["VICTA", "Parangaba (Silas Munguba)", 0, 0, 0, 0, 21, 188, 131, 0, 340, 0, 0, 0, 0, 6090000, 54520000, 37990000, 0, 98600000], ["VICTA", "Caucaia (Tabuba 6)", 0, 0, 0, 0, 40, 195, 70, 0, 305, 0, 0, 0, 0, 12800000, 62400000, 22400000, 0, 97600000], ["VICTA", "VIT\u00d3RIA AC\u00c1CIA", 69, 4, 73, 0, 0, 0, 0, 0, 73, 14674212.240000002, 840000, 15514212.240000002, 0, 0, 0, 0, 0, 15514212.240000002], ["VICTA", "VIT\u00d3RIA SENNA", 19, 3, 22, 0, 0, 0, 0, 0, 22, 4128322.5700000003, 654000, 4782322.57, 0, 0, 0, 0, 0, 4782322.57], ["VICTA", "Jardim Cearense (Rubens Monte)", 0, 0, 0, 121, 171, 0, 0, 0, 292, 0, 0, 0, 32670000, 46170000, 0, 0, 0, 78840000], ["VICTA", "VISTA PARQUE CONDOM\u00cdNIO CLUBE", 119, 3, 122, 0, 0, 0, 0, 0, 122, 40002262.10999999, 1263999.999999999, 41266262.10999999, 0, 0, 0, 0, 0, 41266262.10999999], ["DIAGONAL INC", "Jos\u00e9 Bonif\u00e1cio (Bar\u00e3o do Rio Branco)", 0, 0, 0, 0, 18, 144, 108, 26, 296, 0, 0, 0, 0, 9810036, 78480288, 58860216, 14170052, 161320592], ["VICTA", "Cumbuco (CI1) - Fase 1", 0, 0, 0, 107, 132, 48, 0, 0, 287, 0, 0, 0, 37450000, 46200000, 16800000, 0, 0, 100450000], ["VICTA", "Vista Mar Condom\u00ednio Clube", 18, 1, 19, 0, 0, 0, 0, 0, 19, 6626562.12, 0, 6626562.12, 0, 0, 0, 0, 0, 6626562.12], ["VICTA", "VISTA COSTEIRA CUMBUCO", 71, 9, 80, 6, 0, 0, 0, 0, 86, 26216683.41, 3420000, 29636683.41, 2280000, 0, 0, 0, 0, 31916683.41], ["VICTA", "Vit\u00f3ria Mondubim", 1, 0, 1, 0, 0, 0, 0, 0, 1, 225367.99, 0, 225367.99, 0, 0, 0, 0, 0, 225367.99], ["VICTA", "Cumbuco (CI1) - Fase 2", 0, 0, 0, 0, 102, 132, 27, 0, 261, 0, 0, 0, 0, 35700000, 46200000, 9450000, 0, 91350000], ["DIAGONAL INC", "Praia de Iracema (Guarino Alves)", 0, 0, 0, 75, 96, 89, 0, 0, 260, 0, 0, 0, 47041875, 60213600, 55823025, 0, 0, 163078500], ["DIAGONAL INC", "INC GREEN CAMBEBA", 74, 33, 107, 135, 0, 0, 0, 0, 242, 38610120.81, 16106622.516556308, 54716743.32655631, 65890728.47682126, 0, 0, 0, 0, 120607471.80337757], ["VICTA", "VISTA COQUEIRAL", 88, 30, 118, 79, 0, 0, 0, 0, 197, 36932008.44, 12833877.551020408, 49765885.991020404, 33795877.55102041, 0, 0, 0, 0, 83561763.54204082], ["VICTA", "Caucaia (Costeira 02)", 0, 14, 14, 128, 84, 0, 0, 0, 226, 0, 4480000, 4480000, 40960000, 26880000, 0, 0, 0, 72320000], ["DIAGONAL INC", "Aquiraz (\u00c1gua Viva)", 0, 0, 0, 0, 131, 55, 0, 0, 186, 0, 0, 0, 0, 68074150, 28580750, 0, 0, 96654900], ["DIAGONAL INC", "INC PULSE PARQUEL\u00c2NDIA", 51, 27, 78, 73, 0, 0, 0, 0, 151, 24896233.52, 14167415.730337065, 39063649.250337064, 38304494.382022426, 0, 0, 0, 0, 77368143.63235949], ["DIAGONAL INC", "Aquiraz (Medusa)", 0, 0, 0, 65, 56, 0, 0, 0, 121, 0, 0, 0, 39000000, 33600000, 0, 0, 0, 72600000], ["DIAGONAL", "ICON CONDOMINIUM", 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 4590194.32, 4590194.32, 0, 0, 0, 0, 0, 4590194.32], ["DIAGONAL", "DIAGONAL BY PININFARINA", 2, 0, 2, 2, 2, 0, 0, 0, 6, 17452414.1, 0, 17452414.1, 22098996.735, 22098996.735, 0, 0, 0, 61650407.57], ["DIAGONAL", "Q TOWER CONDOMINIUM", 26, 9, 35, 24, 10, 0, 0, 0, 69, 125937952.07, 51065052.02790697, 177003004.09790695, 136173472.07441857, 56738946.69767441, 0, 0, 0, 369915422.8699999], ["DIAGONAL", "OCEAN GARDEN CUMBUCO", 15, 6, 21, 24, 16, 0, 0, 0, 61, 24263028.879999995, 10495914.27391302, 34758943.15391301, 41983657.09565208, 27989104.73043472, 0, 0, 0, 104731704.97999981], ["DIAGONAL", "OCEAN GARDEN", 2, 1, 3, 6, 0, 0, 0, 0, 9, 5700000, 3254292.04285714, 8954292.04285714, 19525752.257142838, 0, 0, 0, 0, 28480044.29999998], ["DIAGONAL", "FLOW CUMBUCO CONDOMINIUM", 138, 39, 177, 110, 0, 0, 0, 0, 287, 77429032.74, 20351455.794179097, 97780488.53417909, 57401541.98358207, 0, 0, 0, 0, 155182030.51776117], ["DIAGONAL", "EDGE CONDOMINIUM", 2, 0, 2, 0, 0, 0, 0, 0, 2, 10700000, 0, 10700000, 0, 0, 0, 0, 0, 10700000], ["DIAGONAL", "AVULSO DIAGONAL", 4, 0, 4, 0, 0, 0, 0, 0, 4, 5710000, 0, 5710000, 0, 0, 0, 0, 0, 5710000], ["DIAGONAL", "AVULSO ROSSI", 5, 0, 5, 0, 0, 0, 0, 0, 5, 570000, 0, 570000, 0, 0, 0, 0, 0, 570000], ["DIAGONAL", "CONNECT BEIRA MAR", 12, 0, 12, 0, 0, 0, 0, 0, 12, 6474960.0600000005, 0, 6474960.0600000005, 0, 0, 0, 0, 0, 6474960.0600000005]], "tot_net": ["TOTAL GERAL", null, 2004, 599, 2603, 2321, 2747, 2468, 808, 28, 10975, 780407075.92, 252166188.31479385, 1032573264.234794, 970128891.8093379, 974174338.6772776, 806086314, 267065192, 14035046, 4064063046.72141], "tot_g": ["TOTAL", null, 2341, 647, 2988, 2519, 2978, 2678, 877, 31, 12071, 881888603.7900002, 267752070.62077367, 1149640674.4107738, 1037523928.6848702, 1048379314.9790313, 876569063, 290725216, 15670052, 4418508249.074675], "comp_net": [["VICTA", null, 1692, 492, 2184, 1781, 2282, 2052, 684, 5, 8988, 469260980.34, 136739133.9225633, 606000114.2625633, 502381191.6542804, 655837356.5141684, 606980000, 205365000, 1500000, 2578063662.431012], ["DIAGONAL INC", null, 122, 54, 176, 386, 437, 416, 124, 23, 1562, 61926705.34, 27235642.53292656, 89162347.87292656, 196826266.40747082, 211509934, 199106314, 61700192, 12535046, 770840100.2803974], ["DIAGONAL", null, 190, 53, 243, 154, 28, 0, 0, 0, 425, 249219390.24, 88191411.85930398, 337410802.099304, 270921433.7475866, 106827048.16310912, 0, 0, 0, 715159284.0099998]], "comp_g": [["VICTA", null, 2010, 531, 2541, 1933, 2477, 2222, 739, 5, 9917, 544144861.6100001, 147721123.91502407, 691865985.5250242, 545983410.6802311, 712234480.8159221, 657405000, 221815000, 1500000, 2830803877.0211773], ["DIAGONAL INC", null, 125, 60, 185, 420, 473, 456, 138, 26, 1698, 63506354.33, 30274038.246893372, 93780392.57689337, 214357097.85884368, 229317786, 219164063, 68910216, 14170052, 839699607.4357371], ["DIAGONAL", null, 206, 56, 262, 166, 28, 0, 0, 0, 456, 274237387.84999996, 89756908.45885623, 363994296.3088562, 277183420.1457955, 106827048.16310912, 0, 0, 0, 748004764.6177607]], "dis": [["TOTAL GERAL", null, 0.14395557454079452, 0.07418856259659969, 0.1288487282463186, 0.07860262008733625, 0.07756883814640698, 0.07841672890216579, 0.07867730900798175, 0.0967741935483871, 0.09079612293927596, 0.11507295528468518, 0.058210128010754515, 0.1018295653430846, 0.0649575735192537, 0.07078065662067916, 0.08040752517408888, 0.0813827721087668, 0.10433953888602285, 0.08021829594354488], ["VICTA", null, 0.1582089552238806, 0.07344632768361582, 0.14049586776859505, 0.07863424728401448, 0.07872426322163908, 0.07650765076507651, 0.07442489851150202, 0, 0.0936775234445901, 0.13761754737228593, 0.07434271891119715, 0.12410766399695355, 0.07985997041856535, 0.07918336702422256, 0.0767030977859919, 0.07416089984897324, 0, 0.08928213524142858], ["DIAGONAL INC", null, 0.024, 0.1, 0.04864864864864865, 0.08095238095238096, 0.07610993657505286, 0.08771929824561403, 0.10144927536231885, 0.11538461538461539, 0.0800942285041225, 0.024873872963823693, 0.10036307971826665, 0.04924317948637651, 0.08178330284596917, 0.07765578200724474, 0.09151933362359686, 0.10462924684490903, 0.11538461538461539, 0.08200492955525121], ["DIAGONAL", null, 0.07766990291262135, 0.05357142857142857, 0.07251908396946564, 0.07228915662650602, 0, null, null, null, 0.06798245614035088, 0.09122752300894904, 0.017441516496413796, 0.07303272188362962, 0.022591489761238887, 0, null, null, null, 0.04391079062784491]], "months": ["2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09", "2026-10", "2026-11", "2026-12", "2027-01", "2027-02", "2027-03", "2027-04", "2027-05", "2027-06", "2027-07", "2027-08", "2027-09", "2027-10", "2027-11", "2027-12", "2028-01", "2028-02", "2028-03", "2028-04", "2028-05", "2028-06", "2028-07", "2028-08", "2028-09", "2028-10", "2028-11", "2028-12", "2029-01", "2029-02", "2029-03", "2029-04", "2029-05", "2029-06", "2029-07", "2029-08", "2029-09", "2029-10", "2029-11", "2029-12", "2030-01", "2030-02", "2030-03", "2030-04", "2030-05", "2030-06", "2030-07", "2030-08", "2030-09", "2030-10", "2030-11", "2030-12", "2031-01", "2031-02", "2031-03"], "by": {"VICTA": [40478740.56, 40540420.330000006, 70114944.53, 72593665.19, 40525753.39, 43724512.370000005, 55571667.28, 46170431.8, 59540844.890000015, 47574278.12843456, 45508163.47875303, 43656692.31537569, 41206088.966343775, 37790573.81482862, 44352777.89646127, 43762332.036588654, 41358725.93395343, 46134440.21966771, 46191683.109950386, 41558295.35484835, 38765762.26888669, 41230913.7840382, 39130913.7840382, 40898684.48467514, 44789480.94485213, 50354480.94485213, 53483589.22510691, 53483589.22510691, 56105295.57431326, 57863002.482724994, 53327254.40039796, 57740221.23893805, 57740221.23893805, 55330221.23893805, 53855000, 61765000, 58415000, 58415000, 58415000, 54455000, 48385000, 46985000, 46985000, 46985000, 46985000, 46985000, 46985000, 46985000, 43985000, 36915000, 28485000, 18510000, 14880000, 12000000, 12000000, 12000000, 9320000, 7980000, 4790000, 4500000, 1500000, 0, 0], "DIAGONAL INC": [0, 0, 0, 0, 14607551.44, 12275115.2, 18641272.66, 8782073.33, 7620692.710000001, 9078547.510975521, 9078547.510975521, 9078547.510975521, 9078547.510975521, 9078547.510975521, 9078547.510975521, 14891346.08229779, 14366626.981174197, 14366626.981174197, 13878547.510975521, 22659697.51097552, 22356944.70198676, 22356944.70198676, 22356944.70198676, 22356944.70198676, 13085575, 17981375, 17981375, 17981375, 17981375, 17981375, 16942075, 16942075, 16942075, 16942075, 16942075, 23807109, 23207109, 23207109, 23207109, 23207109, 18302091, 13105591, 13105591, 13105591, 13105591, 13105591, 13105591, 9342241, 8715016, 8715016, 5030016, 4360016, 4360016, 4360016, 4360016, 4360016, 4360016, 4360016, 4360016, 4360016, 4360016, 4360016, 3815014], "DIAGONAL": [26551931.409999996, 9126999.8, 10689030.75, 20098373.21, 39038527.78999999, 21900000.770000003, 25759026.38, 17170000.270000003, 78885499.86, 26782308.498815615, 31372502.818815615, 30036600.541672755, 26573333.51506096, 19021085.02964519, 19021085.02964519, 19021085.02964519, 19021085.02964519, 33324875.440002326, 25529669.115359467, 22275377.072502326, 19021085.02964519, 19021085.02964519, 19021085.02964519, 30070583.397145186, 20520322.10060666, 20520322.10060666, 20520322.10060666, 9172532.76107178, 3498638.09130434, 14548136.45880434, 3498638.09130434, 3498638.09130434, 0, 0, 0, 11049498.3675, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, "est": [["Vitoria Eusebio", 70, 592, 0.11824324324324324, 15125000.00000003, 216071.428571429, 10000, 206071.428571429], ["Vitoria Jasmim", 537, 620, 0.8661290322580645, 116882738.09523802, 217658.73015873, 10000, 207658.73015873], ["Vitoria Acacia", 4, 280, 0.014285714285714285, 880000, 220000, 10000, 210000], ["Vitoria Senna", 3, 280, 0.010714285714285714, 684000, 228000, 10000, 218000], ["Vitoria Iris", 175, 520, 0.33653846153846156, 41257575.7575758, 235757.575757576, 10000, 225757.575757576], ["Vitoria Maracanau", 52, 448, 0.11607142857142858, 12376000, 238000, 10000, 228000], ["Viver Essencial Condominio", 338, 528, 0.6401515151515151, 86683253.58851686, 256459.330143541, 0, 256459.330143541], ["Bosque Solar dos Diogos", 339, 348, 0.9741379310344828, 89699999.99999985, 264601.769911504, 0, 264601.769911504], ["Hype Condominio Clube", 319, 534, 0.5973782771535581, 94176114.64968163, 295222.929936306, 0, 295222.929936306], ["Vista Costeira Cumbuco", 15, 240, 0.0625, 6000000, 400000, 20000, 380000], ["Atlantico Condominio Clube", 103, 322, 0.3198757763975155, 42299999.999999955, 410679.611650485, 10000, 400679.611650485], ["Joquei Condominio Clube", 26, 356, 0.07303370786516854, 10899999.999999994, 419230.769230769, 15000, 404230.769230769], ["Vista Parque Condominio Clube", 3, 268, 0.011194029850746268, 1299999.999999999, 433333.333333333, 12000, 421333.333333333], ["Vista Coqueiral", 98, 216, 0.4537037037037037, 43100000.00000001, 439795.918367347, 12000, 427795.918367347], ["Inc Green Cambeba", 153, 260, 0.5884615384615385, 74676158.94039743, 488079.470198676, 0, 488079.470198676], ["Flow Cumbuco Condominium", 134, 360, 0.37222222222222223, 69925514.77999997, 521832.199850746, 0, 521832.199850746], ["Inc Pulse Parquelandia", 89, 140, 0.6357142857142857, 46699999.999999955, 524719.101123595, 0, 524719.101123595], ["Ocean Garden Cumbuco", 46, 160, 0.2875, 80468676.09999982, 1749319.04565217, 0, 1749319.04565217], ["Ocean Garden", 7, 170, 0.041176470588235294, 22780044.29999998, 3254292.04285714, 0, 3254292.04285714], ["Icon Condominium", 1, 24, 0.041666666666666664, 4590194.32, 4590194.32, 0, 4590194.32], ["Q Tower Condominium", 43, 141, 0.3049645390070922, 243977470.79999992, 5673894.66976744, 0, 5673894.66976744], ["Diagonal By Pininfarina", 4, 47, 0.0851063829787234, 44197993.47, 11049498.3675, 0, 11049498.3675]]};
+const COL={'VICTA':'#3F8F66','DIAGONAL INC':'#D4572A','DIAGONAL':'#3A6EA5'};
+const EMP=['VICTA','DIAGONAL INC','DIAGONAL'];
+const YRS=[2026,2027,2028,2029,2030,2031];
+const nf=(v,d=1)=>v==null?'':v.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});
+const mi=v=>nf((v||0)/1e6,1), un=v=>nf(v||0,0), pc=v=>v==null?'–':nf(v*100,1)+'%';
+const $=id=>document.getElementById(id);
+const tip=$('tip');
+function showTip(e,h){tip.innerHTML=h;tip.style.display='block';const w=tip.offsetWidth;let x=e.clientX+14;if(x+w>innerWidth-8)x=e.clientX-w-14;tip.style.left=x+'px';tip.style.top=(e.clientY+14)+'px'}
+function hideTip(){tip.style.display='none'}
+const net=D.net,gross=D.gross;
+const VY=(r,y)=>y==2026?r[13]:r[14+(y-2027)];            // VGV por ano (linha RESUMO)
+const UY=(r,y)=>y==2026?r[4]:r[5+(y-2027)];
+const sumBy=(rows,f,emp)=>rows.filter(r=>!emp||r[0]===emp).reduce((a,r)=>a+(f(r)||0),0);
+const CW=id=>Math.max(300,Math.floor($(id).getBoundingClientRect().width)||300);
+const LBL=(W,max)=>Math.round(Math.min(max,W*.42));
+const trunc=(s,l)=>{const n=Math.floor((l-16)/7.2);return s.length>n?s.slice(0,Math.max(n-1,4))+'…':s};
+let sortK=19,sortD=-1;
+function build(){
+document.querySelectorAll('.legend.dyn').forEach(e=>e.remove());
+document.querySelectorAll('.chart').forEach(c=>c.innerHTML='');
+// KPIs
+const totN=D.tot_net, totG=D.tot_g;
+$('kpis').innerHTML=[['R$ '+nf(totG[19]/1e9,2)+' bi','VGV BRUTO 2026–2031 (distrato 8%)',1],['R$ '+nf(totG[13]/1e9,2)+' bi','VGV BRUTO 2026 (realizado + projeção)',1],['R$ '+nf(totN[19]/1e9,2)+' bi','VGV líquido 2026–2031'],[un(totG[10])+' / '+un(totN[10]),'Unidades brutas / líquidas no período']].map(k=>`<div class="kpi${k[2]?' hl':''}">${k[2]?'<span class="badge">VISÃO BRUTA</span>':''}<div class="v">${k[0]}</div><div class="l">${k[1]}</div></div>`).join('');
+$('ins1').innerHTML=[['2026 fecha em R$ 1.032,6 mi','R$ 780,4 mi realizados (jan–set) e R$ 252,2 mi projetados (out–dez).'],['2027–2028 estáveis','Cerca de R$ 970 mi por ano; queda de 6,0% em 2027 e +0,4% em 2028.'],['Queda a partir de 2029','R$ 806 mi em 2029 e R$ 267 mi em 2030, conforme as curvas se encerram.']].map(i=>`<div><b>${i[0]}</b>${i[1]}</div>`).join('');
+// Tabela anual
+(function(){const y=[...YRS];let h='<tr><th class="l">Ano</th><th>Unidades líq.</th><th>VGV líquido</th><th>Δ a/a</th><th class="g">Unidades brutas</th><th class="g">VGV bruto</th><th>Distrato (VGV)</th></tr>';let prev=null;
+y.forEach(a=>{const v=sumBy(net,r=>VY(r,a)),u=sumBy(net,r=>UY(r,a)),vg=sumBy(gross,r=>VY(r,a)),ug=sumBy(gross,r=>UY(r,a));
+h+=`<tr><td class="l">${a==2026?'2026 (9m real + 3m proj.)':a}</td><td>${un(u)}</td><td>${mi(v)}</td><td>${prev?((v/prev-1)>0?'+':'')+pc(v/prev-1):'–'}</td><td class="g">${un(ug)}</td><td class="g">${mi(vg)}</td><td>${pc((vg-v)/vg)}</td></tr>`;prev=v});
+h+=`<tr class="tot"><td class="l">Total 2026–2031</td><td>${un(totN[10])}</td><td>${mi(totN[19])}</td><td></td><td class="g">${un(totG[10])}</td><td class="g">${mi(totG[19])}</td><td>${pc((totG[19]-totN[19])/totG[19])}</td></tr>`;$('tAnual').innerHTML=h})();
+// helpers de gráfico
+const NS='http://www.w3.org/2000/svg';
+function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+function txt(p,x,y,s,a={}){const t=el('text',{x,y,...a},p);t.textContent=s;return t}
+function niceMax(m){const p=Math.pow(10,Math.floor(Math.log10(m)));const f=m/p;return ([1,1.2,1.6,2,2.4,3.2,4,4.8,6.4,8,10].find(s=>f<=s+1e-9))*p}
+function legend(id,items){$(id).innerHTML=items.map(i=>`<span><i style="background:${i[1]}"></i>${i[0]}</span>`).join('')}
+// Ch1 empilhado por ano
+function stacked(id,series,cats,W0,H,fmtTot,tipf){
+ const W=CW(id);
+ const m={l:46,r:10,t:18,b:26},w=W-m.l-m.r,h=H-m.t-m.b;const svg=el('svg',{viewBox:`0 0 ${W} ${H}`});
+ const tots=cats.map((c,i)=>series.reduce((a,s)=>a+s.v[i],0));const mx=niceMax(Math.max(...tots)*1.08);
+ for(let k=0;k<=4;k++){const y=m.t+h-h*k/4;el('line',{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:k?'#e8e7e3':'#9a9994','stroke-width':1},svg);txt(svg,m.l-6,y+4,nf(mx*k/4,0),{'text-anchor':'end'})}
+ const bw=Math.min(64,w/cats.length*.6);
+ cats.forEach((c,i)=>{const x=m.l+w/cats.length*(i+.5)-bw/2;let acc=0;
+  series.forEach((s,si)=>{const v=s.v[i];if(v<=0)return;const hh=v/mx*h,y=m.t+h-(acc+v)/mx*h;
+   const r=el('rect',{x,y,width:bw,height:Math.max(hh-1,0),fill:s.c,rx:0},svg);acc+=v;
+   r.addEventListener('mousemove',e=>showTip(e,tipf(c,s,v,tots[i])));r.addEventListener('mouseleave',hideTip)});
+  txt(svg,x+bw/2,m.t+h+17,c,{'text-anchor':'middle'});
+  txt(svg,x+bw/2,m.t+h-tots[i]/mx*h-6,fmtTot(tots[i]),{'text-anchor':'middle','font-weight':'700',style:'fill:#1a1a19'})});
+ $(id).appendChild(svg)}
+const serEmp=EMP.map(e=>({n:e,c:COL[e],v:YRS.map(y=>sumBy(net,r=>VY(r,y),e)/1e6)}));
+legend('lg1',EMP.map(e=>[e,COL[e]]));
+stacked('ch1',serEmp,YRS,560,320,v=>nf(v,0),(c,s,v,t)=>`<b>${c} · ${s.n}</b><br>R$ ${nf(v,1)} mi (${nf(v/t*100,0)}% do ano)<br>Total do ano: R$ ${nf(t,1)} mi`);
+// Ch2 mensal
+(function(){const W=CW('ch2'),H=300,m={l:46,r:12,t:18,b:30},w=W-m.l-m.r,h=H-m.t-m.b;const svg=el('svg',{viewBox:`0 0 ${W} ${H}`});
+ const tot=D.months.map((_,i)=>EMP.reduce((a,e)=>a+D.by[e][i],0)/1e6);const mx=niceMax(Math.max(...tot)*1.05);const n=tot.length;
+ const X=i=>m.l+w*i/(n-1),Y=v=>m.t+h-v/mx*h;
+ const cut=D.months.indexOf('2026-10')-.5;
+ el('rect',{x:X(cut),y:m.t,width:W-m.r-X(cut),height:h,fill:'#3F8F66',opacity:.07},svg);
+ for(let k=0;k<=4;k++){const y=Y(mx*k/4);el('line',{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:k?'#e8e7e3':'#9a9994'},svg);txt(svg,m.l-6,y+4,nf(mx*k/4,0),{'text-anchor':'end'})}
+ el('line',{x1:X(cut),x2:X(cut),y1:m.t,y2:m.t+h,stroke:'#3F8F66','stroke-dasharray':'4 3'},svg);
+ txt(svg,X(cut)-6,m.t+10,'Realizado',{'text-anchor':'end',style:'fill:#1F3B2C;font-weight:700'});txt(svg,X(cut)+6,m.t+10,'Projeção',{style:'fill:#3F8F66;font-weight:700'});
+ D.months.forEach((mm,i)=>{if(mm.endsWith('-01'))txt(svg,X(i),m.t+h+17,mm.slice(0,4),{'text-anchor':'middle'})});
+ el('path',{d:tot.map((v,i)=>(i?'L':'M')+X(i)+' '+Y(v)).join(''),fill:'none',stroke:'#1F3B2C','stroke-width':2,'stroke-linejoin':'round'},svg);
+ const cur=el('line',{y1:m.t,y2:m.t+h,stroke:'#555','stroke-width':1,visibility:'hidden'},svg),dot=el('circle',{r:4.5,fill:'#1F3B2C',stroke:'#fff','stroke-width':2,visibility:'hidden'},svg);
+ const ov=el('rect',{x:m.l,y:m.t,width:w,height:h,fill:'transparent'},svg);
+ const MN=['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+ ov.addEventListener('mousemove',e=>{const r=svg.getBoundingClientRect();const px=(e.clientX-r.left)/r.width*W;const i=Math.max(0,Math.min(n-1,Math.round((px-m.l)/w*(n-1))));
+  cur.setAttribute('x1',X(i));cur.setAttribute('x2',X(i));cur.setAttribute('visibility','visible');dot.setAttribute('cx',X(i));dot.setAttribute('cy',Y(tot[i]));dot.setAttribute('visibility','visible');
+  const [yy,mo]=D.months[i].split('-');showTip(e,`<b>${MN[+mo-1]}/${yy}</b> · ${i<D.months.indexOf('2026-10')?'realizado':'projeção'}<br>Total: R$ ${nf(tot[i],1)} mi<br>`+EMP.map(k=>`${k}: R$ ${nf(D.by[k][i]/1e6,1)} mi`).join('<br>'))});
+ ov.addEventListener('mouseleave',()=>{hideTip();cur.setAttribute('visibility','hidden');dot.setAttribute('visibility','hidden')});
+ $('ch2').appendChild(svg)})();
+// Tabela 2026
+(function(){let h='<tr><th class="l">Empresa</th><th>Realizado jan–set (R$ mi)</th><th>Projeção out–dez (R$ mi)</th><th>Total 2026 (R$ mi)</th><th>Unidades realizadas</th><th>Unidades projetadas</th><th>Unidades 2026</th></tr>';
+ EMP.forEach(e=>{h+=`<tr><td class="l"><span class="tag" style="background:${COL[e]}"></span>${e}</td><td>${mi(sumBy(net,r=>r[11],e))}</td><td>${mi(sumBy(net,r=>r[12],e))}</td><td>${mi(sumBy(net,r=>r[13],e))}</td><td>${un(sumBy(net,r=>r[2],e))}</td><td>${un(sumBy(net,r=>r[3],e))}</td><td>${un(sumBy(net,r=>r[4],e))}</td></tr>`});
+ h+=`<tr class="tot"><td class="l">TOTAL</td><td>${mi(totN[11])}</td><td>${mi(totN[12])}</td><td>${mi(totN[13])}</td><td>${un(totN[2])}</td><td>${un(totN[3])}</td><td>${un(totN[4])}</td></tr>`;$('t26').innerHTML=h})();
+// Empresas
+(function(){const T=totN[19];$('cards3').innerHTML=EMP.map(e=>{const v=sumBy(net,r=>r[19],e),u=sumBy(net,r=>r[10],e),n=net.filter(r=>r[0]===e).length;
+ return `<div class="card" style="border-top:4px solid ${COL[e]}"><h3>${e}</h3><div style="font-size:28px;font-weight:700;color:#1F3B2C">R$ ${nf(v/1e6,0)} mi</div><p class="cap" style="margin:2px 0 0">${nf(v/T*100,0)}% do VGV · ${un(u)} unidades · ${n} empreendimentos</p></div>`}).join('');
+ let h='<tr><th class="l">Empresa</th>'+YRS.map(y=>`<th>${y}</th>`).join('')+'<th>Total</th></tr>',hu=h;
+ EMP.forEach(e=>{h+=`<tr><td class="l"><span class="tag" style="background:${COL[e]}"></span>${e}</td>`+YRS.map(y=>`<td>${mi(sumBy(net,r=>VY(r,y),e))}</td>`).join('')+`<td><b>${mi(sumBy(net,r=>r[19],e))}</b></td></tr>`;
+ hu+=`<tr><td class="l"><span class="tag" style="background:${COL[e]}"></span>${e}</td>`+YRS.map(y=>`<td>${un(sumBy(net,r=>UY(r,y),e))}</td>`).join('')+`<td><b>${un(sumBy(net,r=>r[10],e))}</b></td></tr>`});
+ h+=`<tr class="tot"><td class="l">TOTAL</td>`+YRS.map(y=>`<td>${mi(sumBy(net,r=>VY(r,y)))}</td>`).join('')+`<td>${mi(totN[19])}</td></tr>`;
+ hu+=`<tr class="tot"><td class="l">TOTAL</td>`+YRS.map(y=>`<td>${un(sumBy(net,r=>UY(r,y)))}</td>`).join('')+`<td>${un(totN[10])}</td></tr>`;
+ $('tEmp').innerHTML=h;$('tEmpU').innerHTML=hu})();
+// Top10
+(function(){const t=[...net].sort((a,b)=>b[19]-a[19]).slice(0,10);const s=t.reduce((a,r)=>a+r[19],0);$('top10share').textContent=nf(s/totN[19]*100,0)+'%';
+ const W=CW('ch3'),rh=30,m={l:LBL(W,260),r:56,t:6,b:6},H=m.t+m.b+rh*10,svg=el('svg',{viewBox:`0 0 ${W} ${H}`});const mx=t[0][19];
+ t.forEach((r,i)=>{const y=m.t+i*rh,w=(W-m.l-m.r)*r[19]/mx;txt(svg,m.l-10,y+19,trunc(r[1],m.l),{'text-anchor':'end',style:'fill:#1a1a19'});
+  const b=el('rect',{x:m.l,y:y+4,width:w,height:20,fill:COL[r[0]],rx:3},svg);txt(svg,m.l+w+8,y+19,nf(r[19]/1e6,1),{style:'fill:#1a1a19;font-weight:700'});
+  b.addEventListener('mousemove',e=>showTip(e,`<b>${r[1]}</b><br>${r[0]}<br>VGV líq. total: R$ ${mi(r[19])} mi<br>Unidades: ${un(r[10])}`));b.addEventListener('mouseleave',hideTip)});
+ const lg=document.createElement('div');lg.className='legend dyn';lg.innerHTML=EMP.map(e=>`<span><i style="background:${COL[e]}"></i>${e}</span>`).join('');$('ch3').before(lg);$('ch3').appendChild(svg)})();
+// Tabela empreendimentos
+function renderProj(){const mode=$('fm').value,isG=mode.endsWith('b'),q=$('q').value.toLowerCase(),fe=$('fe').value,vgv=mode.startsWith('vgv'),SRC=isG?gross:net;$('projT').innerHTML=isG?'<span class="badge">BRUTO</span>Base completa (visão bruta)':'Base completa (visão líquida)';
+ const cols=vgv?[['2026 Real.',11],['2026 Proj.',12],['2026 Total',13],['2027',14],['2028',15],['2029',16],['2030',17],['2031',18],['Total',19]]:[['2026 Real.',2],['2026 Proj.',3],['2026 Total',4],['2027',5],['2028',6],['2029',7],['2030',8],['2031',9],['Total',10]];
+ let rows=SRC.filter(r=>(!fe||r[0]===fe)&&r[1].toLowerCase().includes(q));
+ const k=vgv?sortK:(sortK>=11?sortK-9:sortK);
+ rows.sort((a,b)=>sortK==0||sortK==1?(String(a[sortK]).localeCompare(String(b[sortK]))*sortD):((a[k]-b[k])*sortD));
+ const f=vgv?mi:un;let h='<tr><th class="l sort" data-k="1">Empreendimento</th><th class="l sort" data-k="0">Empresa</th>'+cols.map(c=>`<th class="sort${isG?' g':''}" data-k="${c[1]}">${c[0]}</th>`).join('')+'</tr>';
+ rows.forEach(r=>h+=`<tr><td class="l">${r[1]}</td><td class="l"><span class="tag" style="background:${COL[r[0]]}"></span>${r[0]}</td>`+cols.map(c=>`<td>${r[c[1]]?f(r[c[1]]):'–'}</td>`).join('')+'</tr>');
+ h+=`<tr class="tot"><td class="l">TOTAL (${rows.length})</td><td></td>`+cols.map(c=>`<td>${f(rows.reduce((a,r)=>a+(r[c[1]]||0),0))}</td>`).join('')+'</tr>';
+ $('tProj').innerHTML=h;$('tProj').querySelectorAll('th.sort').forEach(th=>th.onclick=()=>{const kk=+th.dataset.k;if(sortK===kk)sortD*=-1;else{sortK=kk;sortD=kk<2?1:-1}renderProj()})}
+['q','fe','fm'].forEach(i=>$(i).oninput=renderProj);renderProj();
+// Origem
+const atuais=net.filter(r=>(r[2]||0)+(r[3]||0)>0),novos=net.filter(r=>!((r[2]||0)+(r[3]||0)>0));
+const sA=YRS.map(y=>sumBy(atuais,r=>VY(r,y))/1e6),sN=YRS.map(y=>sumBy(novos,r=>VY(r,y))/1e6);
+legend('lg2',[[`Atuais (${atuais.length} empreend.)`,'#1F3B2C'],[`Novos lançamentos (${novos.length} empreend.)`,'#9CC5AB']]);
+stacked('ch4',[{n:'Atuais',c:'#1F3B2C',v:sA},{n:'Novos lançamentos',c:'#9CC5AB',v:sN}],YRS,560,320,v=>nf(v,0),(c,s,v,t)=>`<b>${c} · ${s.n}</b><br>R$ ${nf(v,1)} mi (${nf(v/t*100,0)}%)`);
+const tN=sN.reduce((a,b)=>a+b,0);
+$('orig').innerHTML=`<li>Os <b>${atuais.length} empreendimentos que já vendem em 2026</b> respondem por ${nf(sA[1]/(sA[1]+sN[1])*100,0)}% do VGV de 2027 (R$ ${nf(sA[1],0)} mi) e só ${nf(sA[2]/(sA[2]+sN[2])*100,0)}% de 2028.</li><li>Os <b>${novos.length} empreendimentos sem venda em 2026</b> são ${nf(sN[2]/(sA[2]+sN[2])*100,0)}% do VGV de 2028 e todo o volume de 2029 em diante: R$ ${nf(tN/1000,2)} bi, ${nf(tN*1e6/totN[19]*100,0)}% do período.</li><li>O volume de 2028 em diante depende principalmente do <b>cumprimento do cronograma de lançamentos</b>.</li><li>A <b>Q Tower</b> é o principal ponto de concentração: R$ 354 mi no período (8,7%) e R$ 136 mi em 2027 (14% do ano).</li>`;
+// Distrato
+(function(){const d=D.dis;const hd=['2026 Real.','2026 Proj.','2026 Total',...YRS.slice(1),'Total'];
+ let h='<tr><th class="l">Empresa</th>'+hd.map(x=>`<th>${x}</th>`).join('')+'</tr>';
+ d.forEach((r,i)=>{const ix=[11,12,13,14,15,16,17,18,19];h+=`<tr class="${i==0?'tot':''}"><td class="l">${i?'<span class="tag" style="background:'+COL[r[0]]+'"></span>':''}${r[0]}</td>`+ix.map(c=>`<td>${r[c]==null?"–":pc(r[c])}</td>`).join('')+'</tr>'});
+ $('tDis').innerHTML=h;
+ (function(){let h='<tr><th class="l">Ano</th><th>VGV líquido</th><th class="g">VGV bruto</th><th>Distrato (R$)</th></tr>',tn=0,tg=0;
+ YRS.forEach(y=>{const n=sumBy(net,r=>VY(r,y))/1e6,g=sumBy(gross,r=>VY(r,y))/1e6;tn+=n;tg+=g;h+=`<tr><td class="l">${y}</td><td>${nf(n,1)}</td><td class="g">${nf(g,1)}</td><td>${nf(g-n,1)}</td></tr>`});
+ h+=`<tr class="tot"><td class="l">Total</td><td>${nf(tn,1)}</td><td class="g">${nf(tg,1)}</td><td>${nf(tg-tn,1)}</td></tr>`;$('tDif').innerHTML=h})();})();
+
+// ===== VGV BRUTO =====
+(function(){
+ const gTot=totG[19],nTot=totN[19];$('gTot').textContent='R$ '+nf(gTot/1e9,2)+' bi';$('gDif').textContent='R$ '+nf((gTot-nTot)/1e6,0)+' mi';
+ $('insG').innerHTML=[['R$ 1.149,6 mi em 2026','Bruto de 2026: R$ 881,9 mi realizados (jan–set) + R$ 267,8 mi projetados (out–dez).'],['Bruto 2027–2028: ~R$ 1,04 bi/ano','2027: R$ 1.037,5 mi · 2028: R$ 1.048,4 mi, com 2.519 e 2.978 unidades brutas.'],['Distrato realizado: 11,5%','Acima dos 8% projetados; o distrato projetado equivale a R$ '+nf((gTot-nTot)/1e6,0)+' mi no período.']].map(i=>`<div><b>${i[0]}</b>${i[1]}</div>`).join('');
+ const serG=EMP.map(e=>({n:e,c:COL[e],v:YRS.map(y=>sumBy(gross,r=>VY(r,y),e)/1e6)}));
+ legend('lgG',EMP.map(e=>[e,COL[e]]));
+ stacked('chG',serG,YRS,560,320,v=>nf(v,0),(c,s,v,t)=>`<b>${c} · ${s.n} (bruto)</b><br>R$ ${nf(v,1)} mi (${nf(v/t*100,0)}% do ano)<br>Total bruto do ano: R$ ${nf(t,1)} mi`);
+ const sN=YRS.map(y=>sumBy(net,r=>VY(r,y))/1e6),sG=YRS.map(y=>sumBy(gross,r=>VY(r,y))/1e6);
+ legend('lgGN',[['VGV líquido','#1F3B2C'],['VGV bruto','#B8892E']]);
+ const W=CW('chGN'),H=320,m={l:46,r:10,t:18,b:26},w=W-m.l-m.r,hh=H-m.t-m.b,svg=el('svg',{viewBox:`0 0 ${W} ${H}`});const mx=niceMax(Math.max(...sG)*1.12);
+ for(let k=0;k<=4;k++){const y=m.t+hh-hh*k/4;el('line',{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:k?'#e8e7e3':'#9a9994'},svg);txt(svg,m.l-6,y+4,nf(mx*k/4,0),{'text-anchor':'end'})}
+ const bw=w/6*.34;YRS.forEach((y,i)=>{const cx=m.l+w/6*(i+.5);[[sN[i],'#1F3B2C',-bw-1,'líquido'],[sG[i],'#B8892E',1,'bruto']].forEach(([v,c,dx,n])=>{const bh=v/mx*hh;const r=el('rect',{x:cx+dx,y:m.t+hh-bh,width:bw,height:bh,fill:c},svg);
+  r.addEventListener('mousemove',e=>showTip(e,`<b>${y} · ${n}</b><br>R$ ${nf(v,1)} mi`+(n=='bruto'?`<br>Distrato: R$ ${nf(sG[i]-sN[i],1)} mi`:'')));r.addEventListener('mouseleave',hideTip)});
+  txt(svg,cx+1+bw/2,m.t+hh-sG[i]/mx*hh-5,nf(sG[i],0),{'text-anchor':'middle','font-weight':'700',style:'fill:#1a1a19'});txt(svg,cx,m.t+hh+17,y,{'text-anchor':'middle'})});
+ $('chGN').appendChild(svg);
+ let h='<tr><th class="l">Empresa</th>'+YRS.map(y=>`<th class="g">${y}</th>`).join('')+'<th class="g">Total</th></tr>',hu=h;
+ EMP.forEach(e=>{h+=`<tr><td class="l"><span class="tag" style="background:${COL[e]}"></span>${e}</td>`+YRS.map(y=>`<td>${mi(sumBy(gross,r=>VY(r,y),e))}</td>`).join('')+`<td class="g">${mi(sumBy(gross,r=>r[19],e))}</td></tr>`;
+ hu+=`<tr><td class="l"><span class="tag" style="background:${COL[e]}"></span>${e}</td>`+YRS.map(y=>`<td>${un(sumBy(gross,r=>UY(r,y),e))}</td>`).join('')+`<td class="g">${un(sumBy(gross,r=>r[10],e))}</td></tr>`});
+ h+=`<tr class="tot"><td class="l">TOTAL</td>`+YRS.map(y=>`<td>${mi(sumBy(gross,r=>VY(r,y)))}</td>`).join('')+`<td class="g">${mi(totG[19])}</td></tr>`;
+ hu+=`<tr class="tot"><td class="l">TOTAL</td>`+YRS.map(y=>`<td>${un(sumBy(gross,r=>UY(r,y)))}</td>`).join('')+`<td class="g">${un(totG[10])}</td></tr>`;
+ $('tGE').innerHTML=h;$('tGU').innerHTML=hu;
+ // Top 10 bruto
+ const tt=[...gross].sort((a,b)=>b[19]-a[19]).slice(0,10),W2=CW('chG10'),rh=30,m2={l:LBL(W2,260),r:56,t:6,b:6},H2=m2.t+m2.b+rh*10,s2=el('svg',{viewBox:`0 0 ${W2} ${H2}`});const mx2=tt[0][19];
+ tt.forEach((r,i)=>{const y=m2.t+i*rh,w2=(W2-m2.l-m2.r)*r[19]/mx2;txt(s2,m2.l-10,y+19,trunc(r[1],m2.l),{'text-anchor':'end',style:'fill:#1a1a19'});
+  const b=el('rect',{x:m2.l,y:y+4,width:w2,height:20,fill:COL[r[0]],rx:3},s2);txt(s2,m2.l+w2+8,y+19,nf(r[19]/1e6,1),{style:'fill:#1a1a19;font-weight:700'});
+  b.addEventListener('mousemove',e=>showTip(e,`<b>${r[1]}</b> (bruto)<br>${r[0]}<br>VGV bruto total: R$ ${mi(r[19])} mi<br>Unidades brutas: ${un(r[10])}`));b.addEventListener('mouseleave',hideTip)});
+ const lg=document.createElement('div');lg.className='legend dyn';lg.innerHTML=EMP.map(e=>`<span><i style="background:${COL[e]}"></i>${e}</span>`).join('');$('chG10').before(lg);$('chG10').appendChild(s2)})();
+
+// Estoque
+(function(){const E=D.est;const tu=E.reduce((a,r)=>a+r[1],0),tv=E.reduce((a,r)=>a+r[4],0),tt=E.reduce((a,r)=>a+r[2],0);
+ $('estRes').textContent=`${un(tu)} unidades em estoque (${nf(tu/tt*100,0)}% das ${un(tt)} unidades dos 22 empreendimentos) e R$ ${nf(tv/1e9,2)} bi de VGV em estoque.`;
+ const s=[...E].sort((a,b)=>b[3]-a[3]),W=CW('ch6'),rh=26,m={l:LBL(W,230),r:48,t:4,b:4},H=m.t+m.b+rh*s.length,svg=el('svg',{viewBox:`0 0 ${W} ${H}`});
+ s.forEach((r,i)=>{const y=m.t+i*rh,w=(W-m.l-m.r)*r[3];txt(svg,m.l-10,y+17,trunc(r[0],m.l),{'text-anchor':'end',style:'fill:#1a1a19'});el('rect',{x:m.l,y:y+4,width:W-m.l-m.r,height:16,fill:'#e6ede8',rx:3},svg);
+  const b=el('rect',{x:m.l,y:y+4,width:Math.max(w,2),height:16,fill:r[3]>=.6?'#c0392b':'#1F3B2C',rx:3},svg);txt(svg,m.l+w+8,y+17,nf(r[3]*100,0)+'%',{style:'fill:#1a1a19;font-weight:700'});
+  b.addEventListener('mousemove',e=>showTip(e,`<b>${r[0]}</b><br>${un(r[1])} de ${un(r[2])} unidades em estoque<br>VGV em estoque: R$ ${mi(r[4])} mi`));b.addEventListener('mouseleave',hideTip)});
+ const lg=document.createElement('div');lg.className='legend dyn';lg.innerHTML='<span><i style="background:#c0392b"></i>60% ou mais em estoque</span><span><i style="background:#1F3B2C"></i>abaixo de 60%</span>';$('ch6').before(lg);$('ch6').appendChild(svg);
+ let h='<tr><th class="l">Empreendimento</th><th>Un. em estoque</th><th>Total de un.</th><th>% em estoque</th><th>VGV em estoque (R$ mi)</th><th>VGV médio/un. (R$ mil)</th><th>Desconto campanha (R$ mil)</th><th>VGV médio final (R$ mil)</th></tr>';
+ E.forEach(r=>h+=`<tr><td class="l">${r[0]}</td><td>${un(r[1])}</td><td>${un(r[2])}</td><td>${pc(r[3])}</td><td>${mi(r[4])}</td><td>${nf(r[5]/1e3,1)}</td><td>${r[6]?nf(r[6]/1e3,1):'–'}</td><td>${nf(r[7]/1e3,1)}</td></tr>`);
+ h+=`<tr class="tot"><td class="l">TOTAL</td><td>${un(tu)}</td><td>${un(tt)}</td><td>${pc(tu/tt)}</td><td>${mi(tv)}</td><td></td><td></td><td></td></tr>`;$('tEst').innerHTML=h})();
+}
+build();
+let lastW=innerWidth,rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{if(innerWidth!==lastW){lastW=innerWidth;build()}},180)});
+document.addEventListener('click',e=>{if(!e.target.closest('svg'))hideTip()});
+addEventListener('scroll',hideTip,{passive:true});
+// nav ativo
+const secs=[...document.querySelectorAll('section')],links=[...document.querySelectorAll('nav a')];
+addEventListener('scroll',()=>{let c=secs[0].id;secs.forEach(s=>{if(s.getBoundingClientRect().top<120)c=s.id});links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+c))});
+</script></body></html>
